@@ -6,7 +6,9 @@ int main(){
     //taking input from user
     cin>>n;
 
+    //outer loop for rows
     for(int i=0; i<n; i++){
+        //inner loop for cols
         for(int j=0; j<n; j++){
             cout << "*";
         }
